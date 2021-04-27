@@ -22,8 +22,8 @@ void selectSort(int arr[], int len) {
 	}
 }
 int* creatArray(int len) {
-	srand((unsigned int)time(NULL)); //Ëæ»úÊıÖÖ×Ó
-	int * arr = new int[len]; //¶¯Ì¬Êı×é£¬¿ÉÒÔ½«arr¿´×÷Êı×éÊ×µØÖ·
+	srand((unsigned int)time(NULL)); //éšæœºæ•°ç§å­
+	int * arr = new int[len]; //åŠ¨æ€æ•°ç»„ï¼Œå¯ä»¥å°†arrçœ‹ä½œæ•°ç»„é¦–åœ°å€
 	for (int i = 0; i < len; ++i)
 	{
 		int m = rand() % 100 + 1;
