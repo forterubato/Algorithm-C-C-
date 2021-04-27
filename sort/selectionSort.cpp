@@ -32,7 +32,7 @@ int* creatArray(int len) {
 	return arr;
 }
 void printArray(int arr[], int len) {
-	
+
 	cout << "[";
 	for (int i = 0; i < len; ++i)
 	{
