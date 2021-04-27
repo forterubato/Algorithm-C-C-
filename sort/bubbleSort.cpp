@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void bubbleSort(int arr[],int len) { //Êı×éÃû×÷Îªº¯ÊıĞÎ²Î£¬²»ÄÜÂ©µô[]£¬Ö®Ç°Íü¹ı
+void bubbleSort(int arr[],int len) { //æ•°ç»„åä½œä¸ºå‡½æ•°å½¢å‚ï¼Œä¸èƒ½æ¼æ‰[]ï¼Œä¹‹å‰å¿˜è¿‡
 	for (int i = 0; i < len - 1; ++i)
 	{
 		for (int j = 0; j < len - i - 1; ++j)
@@ -14,7 +14,6 @@ void bubbleSort(int arr[],int len) { //Êı×éÃû×÷Îªº¯ÊıĞÎ²Î£¬²»ÄÜÂ©µô[]£¬Ö®Ç°Íü¹ı
 			}
 		}
 	}
-
 }
 void printArray(int arr[], int len) {
 
@@ -30,16 +29,15 @@ void printArray(int arr[], int len) {
 			cout << arr[i] << "]" << endl;
 		}
 	}
-
 }
 void test() {
 	int arr[] = { 0,12,323,53,63,24,64,84,23,34 };
 	int len = sizeof(arr) / sizeof(arr[0]);
-	cout << "ÅÅĞòÇ°" << endl;
+	cout << "æ’åºå‰" << endl;
 	printArray(arr, len);
 	cout << endl;
 	bubbleSort(arr, len);
-	cout << "ÅÅĞòºó" << endl;
+	cout << "æ’åºå" << endl;
 	printArray(arr, len);
 }
 int main() {
