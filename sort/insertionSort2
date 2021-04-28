@@ -1,5 +1,4 @@
 #include<iostream>
-#include<ctime>
 using namespace std;
 void insertionSort(int arr[], int len) {
 	for (int i = 1; i < len; ++i)
